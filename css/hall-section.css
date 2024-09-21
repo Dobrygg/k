@@ -1,0 +1,170 @@
+.hall-section {
+    padding: 120px 0 100px;
+}
+
+.hall-section__list {
+    list-style: none;
+    padding: 0;
+    margin: -10px;
+    font-size: 0;
+}   
+
+.hall-section__item {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 20px);
+    margin: 10px;
+
+}
+
+.hall-section__link {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: calc(80 / 70);
+    width: 100%;
+    padding: 94px 10px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.hall-section__link:hover {
+    color: var(--primary-color-pink);
+    outline: 1px solid var(--primary-color-pink);
+    transition-delay: .3s;
+    transition-property: border, color;
+}    
+    
+.hall-section__link:focus {
+    color: var(--primary-color-violet);
+    outline: 1px solid var(--primary-color-violet);
+    transition-delay: .3s;
+    transition-property: border, color;
+}
+
+.hall-section__text{
+    max-width: 240px;
+    display: inline-block;
+    vertical-align: middle;
+}     
+
+.hall-section__link_theme_vibes {
+    background-image: url("../img/hall-80s-vibes.jpg");
+}
+
+.hall-section__link_theme_star {
+    background-image: url("../img/hall-star-wars.jpg");
+}
+
+.hall-section__link_theme_wild {
+    background-image: url("../img/hall-wild-west.jpg");
+}
+
+.hall-section__link_theme_neon {
+    background-image: url("../img/hall-neon-style.jpg");
+}   
+
+.hall-section__title {
+    margin-bottom: 60px;
+}
+
+
+
+@media (max-width:1024px) {
+    .hall-section {
+        padding: 122px 0 71px;
+    }  
+    
+    .hall-section__item {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(50% - 20px);
+        margin: 10px;
+    
+    }
+    
+    .hall-section__link {
+        display: inline-block;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: calc(60 / 50);
+        font-weight: 700;
+        width: 100%;
+        padding: 74px 10px;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        transition: .3s;
+    }
+}
+@media (max-width:840px) {
+    .hall-section {
+        padding: 35px 0 63px;
+    }  
+    
+    .hall-section__item {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(50% - 20px);
+        margin: 10px;
+    
+    }
+    
+    .hall-section__link {
+        display: inline-block;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: calc(50 / 40);
+        font-weight: 700;
+        width: 100%;
+        padding: 62px 10px 38px;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        transition: .3s;
+    }
+    .hall-section__text{
+        max-width: 140px;
+    } 
+}
+
+@media (max-width:550px) {
+    .container {
+        padding: 0 16px;
+    }
+    .hall-section {
+        padding: 15px 0 30px;
+    }  
+    
+    .hall-section__item {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(100% - 20px);
+        margin: 10px;
+    
+    }
+    
+    .hall-section__link {
+        display: inline-block;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: calc(50 / 40);
+        font-weight: 700;
+        width: 100%;
+        padding: 50px 10px;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        transition: .3s;
+    }
+    .hall-section__text{
+        max-width: 140px;
+    } 
+}
