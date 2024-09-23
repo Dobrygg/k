@@ -113,6 +113,7 @@
 .header__back-svg {
     fill: var(--primary-color-white);
     cursor: pointer;
+    transition: .3s;
 }
 .header__back-svg:hover {
     fill: var(--primary-color-light-purple);
