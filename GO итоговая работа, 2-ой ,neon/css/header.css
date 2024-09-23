@@ -106,12 +106,12 @@
     display: flex;
     gap: 10px;
     color: var(--primary-color-white);
-    background-repeat: no-repeat;
-    background-size: 30px 25px;
+    transition: .3s;
 }
 .header__back-svg {
     fill: var(--primary-color-white);
     cursor: pointer;
+    transition: .3s;
 }
 .header__back-svg:hover {
     fill: var(--primary-color-light-purple);
