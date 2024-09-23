@@ -34,6 +34,7 @@
 }
 .hall-section__wrapper-description{
     width: 50%;
+    gap: 15px;
     font-size: 20px;
     line-height: calc(28 / 20);
     padding-left: 80px;
