@@ -3,10 +3,26 @@
     
 }
 
-.banner-section__wrapper {
-    background-image: url("../img/neon-style__banner.jpg");
-    background-repeat: no-repeat;
+.banner-section__wrapper-wild {
+    background-image: url("../img/wild-west__banner.jpg");
     background-position: center;
+}
+.banner-section__wrapper-neon {
+    background-image: url("../img/neon-style__banner.jpg");
+    background-position: center;
+}
+.banner-section__wrapper-vibes {
+    background-image: url("../img/80s-vibes__banner.jpg");
+    background-position: center;
+}
+.banner-section__wrapper-star {
+    background-image: url("../img/star-wars__banner.jpg");
+    background-position: top;
+}
+
+.banner-section__wrapper {
+    background-repeat: no-repeat;
+    
     background-size: cover;
 }
 
