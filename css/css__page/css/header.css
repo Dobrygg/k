@@ -107,27 +107,27 @@
     gap: 10px;
     color: var(--primary-color-white);
     transition: .3s;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 .header__back-line {
     background-image: url("../../../img/Arrow_back.png");
     background-repeat: no-repeat;
     background-position: left;
 }
-/* .header__back-svg {
+.header__back-svg {
     fill: var(--primary-color-white);
     cursor: pointer;
     transition: .3s;
-} */
-/* .header__back-svg:hover {
-    fill: var(--primary-color-light-purple);
+} 
+.header__back-svg:hover {
+    color: var(--primary-color-light-purple);
 }
 .header__back-svg:focus {
     color: var(--primary-color-light-purple);
 }
 .header__back-svg:active {
     fill: var(--primary-color-dark-purple);
-} */
+} 
 
 
 
@@ -149,10 +149,9 @@
  */
 
 
-/* .header__back-link:hover{
+.header__back-link:hover{
     color: var(--primary-color-light-purple);
-    transition-duration: .3s;
-    transition-property: background-color;
+    transition-duration: .6s;
     
 }
 .header__back-link:focus{
@@ -164,7 +163,7 @@
     color: var(--primary-color-dark-purple);
     transition-duration: .3s;
     
-} */
+} 
 
 
 @media(max-width:1100px){
