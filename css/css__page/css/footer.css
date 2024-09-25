@@ -30,7 +30,7 @@
 .address-wrapper{
     margin: 0 0 39px;
     background-position: 0% 61%;
-    background-image: url("../img/tracker.svg");
+    background-image: url("../../../img/tracker.svg");
     /* background-size: 32px 32px; */
     background-repeat: no-repeat;
 }    
@@ -38,12 +38,12 @@
 .address__contact_type_phone {
     margin-bottom: 20px;
     text-decoration: none;
-    background-image: url("../img/tel.svg");
+    background-image: url("../../../img/tel.svg");
 }    
 
 .address__contact_type_email{
     text-decoration: none;
-    background-image: url("../img/mail.svg");
+    background-image: url("../../../img/mail.svg");
 }
 
 .social-list {
