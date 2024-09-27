@@ -237,6 +237,7 @@
     .about-section__images {
         height: 100%;
         width: 382px;
+        min-height: 360px;
     }
     .about-section__wrapper-text {
         font-size: 16px;
@@ -326,6 +327,10 @@
         top: 83%;
         left: -100%;
     }
+    .about-section__images {
+        min-height: 240px;
+        width: 100%;
+    }
     
 }
 
@@ -368,7 +373,7 @@
     .about-section__figcaption {
         font-size: 12px;
         line-height: calc(16 / 12);
-        max-width: 152px;
+        max-width: 167px;
         
     }
     .about-section__blockquote-text::before {
