@@ -197,7 +197,7 @@
     }
     
     .address-wrapper {
-        background-image: url("../img/tracker.svg");
+        background-image: url("../../../img/tracker.svg");
         background-size: 26px 26px;
         margin-bottom: 40px;
     }    
@@ -205,12 +205,12 @@
     .address__contact_type_phone {
         margin-bottom: 7px;
         background-size: 26px 26px;
-        background-image: url("../img/tel.svg");
+        background-image: url("../../../img/tel.svg");
     }    
     
     .address__contact_type_email{
         background-size: 26px 26px;
-        background-image: url("../img/mail.svg");
+        background-image: url("../../../img/mail.svg");
     }
     
     .social-list {
@@ -297,7 +297,7 @@
         margin: 0 0 27px;
         background-position: 20% 12%;
         padding: 5px 0 0 ;
-        background-image: url("../img/tracker.svg"); 
+        background-image: url("../../../img/tracker.svg"); 
         background-size: 26px 26px; 
     }    
     .footer__adress-wrapper {
@@ -312,12 +312,12 @@
     .address__contact_type_phone {
         margin-bottom: 27px;
         background-size: 26px 26px;
-        background-image: url("../img/tel.svg"); 
+        background-image: url("../../../img/tel.svg"); 
     }    
     
     .address__contact_type_email{
         background-size: 26px 26px;
-        background-image: url("../img/mail.svg");
+        background-image: url("../../../img/mail.svg");
     }
     
     .social-list__item {
