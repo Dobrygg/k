@@ -18,7 +18,7 @@
 }    
 
 .question-section__item:not(:last-child) {
-    margin-bottom: 27px;
+    margin-bottom: 20px;
 }
 
 .question-section__item:nth-child(odd) {
@@ -97,7 +97,7 @@
 }    
 
 .question-section__item:not(:last-child) {
-    margin-bottom: 27px;
+    margin-bottom: 17px;
 }
 
 .question-section__item:nth-child(odd) {
@@ -175,7 +175,7 @@
     }    
     
     .question-section__item:not(:last-child) {
-        margin-bottom: 27px;
+        margin-bottom: 17px;
     }
     
     .question-section__item:nth-child(odd) {
@@ -249,6 +249,9 @@
         background-size: 30px 30px;
         width: 30px;
         height: 30px;
+    }
+    .question-section__item:not(:last-child) {
+        margin-bottom: 10px;
     }
 }
 
