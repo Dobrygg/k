@@ -10,9 +10,9 @@ html {
     box-sizing: inherit;
 }
 
-:hover, :focus, :active, :checked {
+/* :hover, :focus, :active, :checked {
     transition: 0.3s;
-}
+} */
 
 
 body {
