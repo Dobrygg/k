@@ -100,7 +100,8 @@
         position: absolute;
         inset: 0;
         display: block;
-        width: 287px;
+        object-fit: cover;
+        object-position: center;
         z-index: -1;
         height: 100%;
     }    
@@ -177,16 +178,7 @@
     
     .assortment-section__text {
         min-height: 56px;
-    }
-    
-    .assortment-section__img {
-        position: absolute;
-        inset: 0;
-        display: block;
-        width: 334px;
-        z-index: -1;
-        height: 100%;
-    }    
+    }   
     
     .assortment-section__item:hover {
         transform: scale(1.1, 1.1);
@@ -231,16 +223,7 @@
     
     .assortment-section__text {
         min-height: 56px;
-    }
-    
-    .assortment-section__img {
-        position: absolute;
-        inset: 0;
-        display: block;
-        width: 239px;
-        z-index: -1;
-        height: 126px;
-    }   
+    }  
     
     .assortment-section__item:hover {
         transform: scale(1.1, 1.1);
@@ -290,16 +273,7 @@
     
     .assortment-section__text {
         min-height: 31px;
-    }
-    
-    .assortment-section__img {
-        position: absolute;
-        inset: 0;
-        display: block;
-        width: 100%;
-        z-index: -1;
-        height: 100%;
-    }    
+    }   
     
     .assortment-section__item:hover {
         transform: scale(1.1, 1.1);

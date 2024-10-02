@@ -35,15 +35,15 @@
 .hall-section__link:hover {
     color: var(--primary-color-pink);
     outline: 1px solid var(--primary-color-pink);
-    transition-delay: .3s;
-    transition-property: border, color;
+    transition-delay: .3s, .3s;
+    transition-property: outline, color;
 }    
     
 .hall-section__link:focus {
     color: var(--primary-color-violet);
     outline: 1px solid var(--primary-color-violet);
-    transition-delay: .3s;
-    transition-property: border, color;
+    transition-delay: .3s, .3s;
+    transition-property: outline, color;
 }
 
 .hall-section__text{

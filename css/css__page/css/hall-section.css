@@ -135,6 +135,10 @@
     transition-delay: .3s;
     transition-property: border, color;
 }
+/* .hall-section__text {
+    color: var(--primary-color-pink);
+    transition-delay: 0s;
+} */
 
 
 

@@ -111,7 +111,7 @@
         
     }
     .banner-section__title {
-        padding: 165px 10px;
+        padding: 165px 5px;
         font-weight: 700;
         font-size: 60px;
         line-height: calc(72 / 60);
@@ -119,7 +119,7 @@
     }
 
 }    
-@media(max-width:320px){
+@media(max-width:425px){
     .banner-section {
         padding: 15px 0 15px;
     }
