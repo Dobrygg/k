@@ -13,6 +13,10 @@
     display: none;
 }
 
+.header__line-button{
+    display: none;
+}
+
 .header__list {
     display: flex;
     align-items: center;
@@ -118,6 +122,10 @@
         max-width: 87px;
         max-height: 55px;
         
+    }
+    
+    .header__line-button{
+        display: block;
     }
     .header__line-svg{
         display: block;

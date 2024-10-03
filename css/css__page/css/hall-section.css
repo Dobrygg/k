@@ -188,6 +188,8 @@
         font-size: 30px;
         line-height: calc(36 / 30);
         max-height: 172px;
+        max-height: calc((100% - 16px) / 3);
+        width: 100%;
     }
     .hall-section__hall-name {
         padding: 50px 10px;
